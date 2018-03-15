@@ -15,7 +15,7 @@ class MissIt {
 
     this.initializeCanvas();
     this.initializeGameObjects();
-    this.startGame();
+    // this.startGame();
   }
 
   bindMethods() {
@@ -46,6 +46,10 @@ class MissIt {
     this.hero = new Hero(this.game, '#00FF00');
     this.hero.x = (this.game.area.width * 0.5) - (Square.SIZE * 0.5);
     this.hero.y = (this.game.area.height * 0.5) - (Square.SIZE * 0.5);
+  }
+
+  askPlayername(){
+
   }
 
   startGame() {
