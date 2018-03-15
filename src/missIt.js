@@ -2,6 +2,7 @@ import Game from './game.js';
 import Hero from './hero.js';
 import Square from './square.js';
 import Enemy from './enemy.js';
+import LeaderBoards from './leaderboards.js';
 
 class MissIt {
 
